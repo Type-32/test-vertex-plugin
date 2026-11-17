@@ -5,10 +5,10 @@ import './style.css'
 
 export default definePlugin({
     setup(ctx) {
-        const props = {version: ctx.plugin.version, logo: ctx.plugin.assetUrl('logo.svg')}
+        const props = {version: ctx.plugin.version, logo: ctx.plugin.assetUrl('logo.svg'), t: ctx.i18n.t}
         ctx.views.panel({
             id: 'test-vertex-plugin',
-            label: 'Test plugin',
+            label: 'plugins.test-vertex-plugin.view',
             icon: 'i-lucide-flask-conical',
             defaultArea: 'right',
             component: async () => ({render: () => h(View, props)}),

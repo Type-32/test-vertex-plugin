@@ -1,0 +1,9 @@
+{
+  "plugins": {
+    "test-vertex-plugin": {
+      "view": "测试插件",
+      "running": "测试插件 {version}",
+      "clicked": "已点击 {count} 次"
+    }
+  }
+}

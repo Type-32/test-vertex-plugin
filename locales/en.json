@@ -1,0 +1,9 @@
+{
+  "plugins": {
+    "test-vertex-plugin": {
+      "view": "Test plugin",
+      "running": "Test plugin {version}",
+      "clicked": "Clicked {count}"
+    }
+  }
+}
