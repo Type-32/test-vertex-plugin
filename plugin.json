@@ -1,9 +1,12 @@
 {
   "id": "test-vertex-plugin",
   "name": "Test plugin",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A fixture for Vertex's plugin install and update tests.",
   "author": "Type-32",
   "repository": "https://github.com/Type-32/test-vertex-plugin",
-  "apiVersion": 1
+  "apiVersion": 1,
+  "permissions": [
+    "network"
+  ]
 }
