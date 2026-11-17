@@ -1,0 +1,9 @@
+{
+  "name": "test-vertex-plugin",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "typecheck": "vue-tsc -p ."
+  }
+}
